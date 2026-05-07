@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai Rama Chandra — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress"></div>
+
+<header class="topbar" data-screen-label="00 Chrome">
+  <div class="brand"><b>M.</b>Sai Rama Chandra · 2026</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#connect">Connect</a>
+  </nav>
+  <div class="clock">HYD · — IST</div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" data-screen-label="01 Hero">
+  <div class="hero-meta-top">
+    <div class="l mono">
+</div>
+    <div class="c mono">
+</div>
+    <div class="r mono">
+</div>
+  </div>
+
+  <div class="hero-split">
+    <div class="hero-name name-lockup">
+      <div class="hero-line name-row1">
+        <span class="word"><span> Sai</span></span>
+      </div>
+      <div class="hero-line name-row2">
+        <span class="word delay italic accent"><span>Rama</span></span>
+      </div>
+      <div class="hero-line name-row3">
+        <span class="word"><span class="serif-it">Chandra</span></span>
+      </div>
+      <div class="name-meta">
+        <span class="mono">MAMIDALA · PORTFOLIO · VOL. 01</span>
+      </div>
+    </div>
+
+    <aside class="hero-stack" aria-hidden="true">
+      <!-- Orbiting skill constellation -->
+      <div class="orbit-frame">
+        <svg class="orbit-svg" viewBox="0 0 400 400">
+          <defs>
+            <circle id="orbit-r1" cx="200" cy="200" r="70"/>
+            <circle id="orbit-r2" cx="200" cy="200" r="120"/>
+            <circle id="orbit-r3" cx="200" cy="200" r="170"/>
+          </defs>
+          <use href="#orbit-r1" class="orbit-ring"/>
+          <use href="#orbit-r2" class="orbit-ring"/>
+          <use href="#orbit-r3" class="orbit-ring"/>
+          <circle cx="200" cy="200" r="6" fill="var(--accent)"/>
+          <circle cx="200" cy="200" r="14" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+          <text x="200" y="232" text-anchor="middle" style="font-family: &#39;Cormorant Garamond&#39;; font-style: italic; font-size: 14px; fill: var(--ink-soft); opacity: 0">stack · 2026</text>
+        </svg>
+        <div class="orbit-chip o1 c1"><span class="mono">PYTHON</span></div>
+        <div class="orbit-chip o1 c2"><span class="mono">TS</span></div>
+        <div class="orbit-chip o1 c3"><span class="mono">REACT</span></div>
+        <div class="orbit-chip o2 c1"><span class="mono">FASTAPI</span></div>
+        <div class="orbit-chip o2 c2"><span class="mono">NODE</span></div>
+        <div class="orbit-chip o2 c3"><span class="mono">POSTGRES</span></div>
+        <div class="orbit-chip o2 c4"><span class="mono">DOCKER</span></div>
+        <div class="orbit-chip o3 c1"><span class="mono">XGBOOST</span></div>
+        <div class="orbit-chip o3 c2"><span class="mono">SOCKET.IO</span></div>
+        <div class="orbit-chip o3 c3"><span class="mono">N8N</span></div>
+        <div class="orbit-chip o3 c4"><span class="mono">PLAYWRIGHT</span></div>
+        <div class="orbit-chip o3 c5"><span class="mono">NGINX</span></div>
+      </div>
+
+      <!-- Live status ticker -->
+      <div class="hero-ticker">
+        <div class="ticker-row">
+          <span class="dot"></span>
+          <span class="mono">build · </span>
+          <span class="ticker-val" data-stream="quoteai · agent_5 · fraud_score 0.12 ✓ → agent_6 · decision · approve"></span>
+        </div>
+        <div class="ticker-row">
+          <span class="dot warm"></span>
+          <span class="mono">infra · </span>
+          <span class="ticker-val" data-stream="hetzner · 4 vCPU · 87.3% uptime · 12 deploys this week"></span>
+        </div>
+        <div class="ticker-row">
+          <span class="dot"></span>
+          <span class="mono">repo · </span>
+          <span class="ticker-val" data-stream="ivana · main · +428 / -191 · 0 conflicts · advisory_lock held"></span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="hero-row-meta">
+    <div class="reveal in">
+      <h3>Backend &amp; ML</h3>
+      <p>I build production-ready systems — payment gateways that don't double-charge, ML pipelines that catch fraud, infra that survives.</p>
+      <div class="chip-row">
+        <span class="chip">Python</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">XGBoost</span>
+      </div>
+    </div>
+    <div class="reveal in">
+      <h3>Currently</h3>
+      <p>Pursuing B.Tech, Computer Science Engineering at GITAM University, Hyderabad.</p>
+      <div class="chip-row">
+        <span class="chip">Class of 2027</span>
+        <span class="chip">CGPA 8.14</span>
+      </div>
+    </div>
+    <div class="reveal in">
+      <h3>Open to</h3>
+      <p>Internships, freelance backend work, and collaborations on systems that need to be both fast and correct.</p>
+      <div class="chip-row">
+        <span class="chip">Hyderabad / Remote</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span class="dot"></span> scroll to read</div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about" data-screen-label="02 About">
+  <div class="section-head">
+    <div class="num">§ 02</div>
+    <h2>About</h2>
+    <div class="meta">fig. 01 — the engineer<br>last revised · may 2026</div>
+  </div>
+
+  <div class="about-grid" style="font-family: &quot;Cormorant Garamond&quot;">
+    <div class="reveal portrait-frame">
+      <img src="assets/portrait.jpg" alt="Sai Rama Chandra Mamidala">
+    </div>
+
+    <div class="about-card reveal d1">
+      <div class="k" style="font-weight: 700">Name</div>
+      <div class="v">Sai Rama Chandra Mamidala</div>
+      <div class="row-rule"></div>
+
+      <div class="k" style="font-weight: 700">Based</div>
+      <div class="v">Hyderabad, India</div>
+      <div class="row-rule"></div>
+
+      <div class="k" style="font-weight: 700">Reading</div>
+      <div class="v body" style="font-family: &quot;Cormorant Garamond&quot;">Computer Science Engineering at GITAM University, Class of 2027. CGPA 8.14 / 10. Six semesters in, two to go.</div>
+      <div class="row-rule"></div>
+
+      <div class="k" style="font-weight: 700">Working on</div>
+      <div class="v body">Backend systems, multi-agent ML pipelines, and full-stack platforms — most recently a fashion-rental SaaS, an autonomous insurance underwriter, and a predictive traffic engine.</div>
+      <div class="row-rule"></div>
+
+      <div class="k" style="font-weight: 700">Off the clock</div>
+      <div class="v body">Music production &amp; sound engineering, competitive debating, philosophy, and the kind of open-source rabbit-holes you don't get out of for a weekend.</div>
+      <div class="row-rule"></div>
+
+      <div class="k" style="font-weight: 700">Approach</div>
+      <div class="v" style="font-style:italic;color:var(--accent);font-size:24px">"Architect for failure, ship for users, audit for whoever inherits this."</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills" data-screen-label="03 Skills">
+  <div class="section-head">
+    <div class="num">§ 03</div>
+    <h2>Skills</h2>
+    <div class="meta">fig. 02 — taxonomy &amp; toolset<br>print this page</div>
+  </div>
+
+  <div class="skills-grid">
+    <div class="reveal terminal">
+      <div class="terminal-bar">
+        <span class="d"></span><span class="d"></span><span class="d"></span>
+        <span class="t">~/saichandra — zsh</span>
+      </div>
+      <div class="terminal-body"></div>
+    </div>
+
+    <div class="skills-tax reveal d2">
+      <div class="cat">Languages.</div>
+      <div class="list"><span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Java</span><span>C</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Backend.</div>
+      <div class="list"><span>Node.js</span><span>Express</span><span>FastAPI</span><span>Strapi&nbsp;5</span><span>Socket.IO</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Frontend.</div>
+      <div class="list"><span>React</span><span>Next.js</span><span>Vite</span><span>Tailwind</span><span>HTML5</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">AI / ML.</div>
+      <div class="list"><span>Scikit-learn</span><span>XGBoost</span><span>Random&nbsp;Forest</span><span>Isolation&nbsp;Forest</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Data.</div>
+      <div class="list"><span>PostgreSQL</span><span>Supabase</span><span>MySQL</span><span>Advisory&nbsp;Locks</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Automation.</div>
+      <div class="list"><span>n8n</span><span>Webhook&nbsp;pipelines</span><span>Cron</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Testing.</div>
+      <div class="list"><span>Playwright&nbsp;E2E</span><span>Vitest</span><span>Race&nbsp;condition&nbsp;testing</span></div>
+      <div class="row-rule"></div>
+
+      <div class="cat">Infra.</div>
+      <div class="list"><span>Docker</span><span>Nginx</span><span>PM2</span><span>Hetzner</span><span>DigitalOcean</span><span>Vercel</span><span>Railway</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects" data-screen-label="04 Projects">
+  <div class="section-head">
+    <div class="num">§ 04</div>
+    <h2>Projects</h2>
+    <div class="meta">selected work · 2024 — 2026<br>five entries</div>
+  </div>
+
+  <div class="projects-list">
+
+    <!-- Ivana -->
+    <article class="project reveal" data-screen-label="04.1 Ivana">
+      <div class="visual">
+        <span class="fig-tag">fig. 4.1</span>
+        <div class="booking-vis">
+          <div class="head"><span>ivana · rental calendar</span><span style="width: 89.7604px; height: 14.7188px; text-align: left">oct 2026</span></div>
+          <div class="calendar">
+            <!-- 28 cells (4 rows x 7) -->
+            <div class="cell">01</div><div class="cell">02</div><div class="cell">03</div><div class="cell">04</div><div class="cell">05</div><div class="cell">06</div><div class="cell">07</div>
+            <div class="cell">08</div><div class="cell">09</div><div class="cell">10</div><div class="cell">11</div><div class="cell">12</div><div class="cell">13</div><div class="cell">14</div>
+            <div class="cell">15</div><div class="cell">16</div><div class="cell">17</div><div class="cell">18</div><div class="cell">19</div><div class="cell">20</div><div class="cell">21</div>
+            <div class="cell">22</div><div class="cell">23</div><div class="cell">24</div><div class="cell">25</div><div class="cell">26</div><div class="cell">27</div><div class="cell">28</div>
+          </div>
+          <div class="foot"><span>
+</span><span class="ok">no double-bookings · 0 conflicts</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <div class="meta-row"><span class="dot"></span> 2026 · production</div>
+        <h3>Ivana <em>Designers Studio.</em></h3>
+        <div class="sub">a fashion rental &amp; retail SaaS platform.</div>
+        <ul>
+          <li>Architected a full-stack SaaS with a React storefront, React/TypeScript admin portal, and Strapi&nbsp;5 REST API on Supabase Postgres.</li>
+          <li>Implemented PostgreSQL advisory locks to prevent double-booking race conditions; integrated Paytm with idempotent refund processing.</li>
+          <li>Designed seven custom n8n automation workflows; built a Playwright E2E suite across nine spec files with live-DB verification.</li>
+          <li>Conducted a full security audit — remediated 27+ vulnerabilities including XSS vectors, auth misconfigurations &amp; silent data corruption bugs.</li>
+        </ul>
+        <div class="stack">
+          <span class="chip">React</span>
+          <span class="chip">TypeScript</span>
+          <span class="chip">Strapi 5</span>
+          <span class="chip">Supabase</span>
+          <span class="chip">n8n</span>
+          <span class="chip">Playwright</span>
+          <span class="chip">Paytm</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- QuoteAI -->
+    <article class="project flip reveal" data-screen-label="04.2 QuoteAI">
+      <div class="visual">
+        <span class="fig-tag">fig. 4.2</span>
+        <svg class="diagram" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+          <!-- flow lines (input → 6 agents → output) -->
+          <path class="flow-line" d="M 60 225 C 130 225, 150 110, 230 110" />
+          <path class="flow-line" d="M 60 225 C 130 225, 150 180, 230 180" />
+          <path class="flow-line" d="M 60 225 C 130 225, 150 250, 230 250" />
+          <path class="flow-line" d="M 60 225 C 130 225, 150 320, 230 320" />
+          <path class="flow-line" d="M 60 225 C 130 225, 150 390, 230 390" />
+          <path class="flow-line" d="M 60 225 C 130 225, 150 60, 230 60" />
+
+          <path class="flow-line" d="M 320 60  C 400 60, 420 225, 510 225" />
+          <path class="flow-line" d="M 320 110 C 400 110, 420 225, 510 225" />
+          <path class="flow-line" d="M 320 180 C 400 180, 420 225, 510 225" />
+          <path class="flow-line" d="M 320 250 C 400 250, 420 225, 510 225" />
+          <path class="flow-line" d="M 320 320 C 400 320, 420 225, 510 225" />
+          <path class="flow-line" d="M 320 390 C 400 390, 420 225, 510 225" />
+
+          <!-- input node -->
+          <g class="agent-node">
+            <circle cx="40" cy="225" r="22" />
+            <text x="40" y="228" text-anchor="middle">in</text>
+          </g>
+          <text x="40" y="270" text-anchor="middle" class="" style="font-family:'Cormorant Garamond';font-style:italic;font-size:13px;fill:var(--ink-soft)">policy</text>
+
+          <!-- 6 agents -->
+          <g class="agent-node">
+            <circle cx="275" cy="60" r="22" />
+            <text x="275" y="63" text-anchor="middle">a1</text>
+            <text x="275" y="36" text-anchor="middle" class="label" style="opacity: 0">intake</text>
+          </g>
+          <g class="agent-node">
+            <circle cx="275" cy="110" r="22" />
+            <text x="275" y="113" text-anchor="middle">a2</text>
+            <text x="320" y="114" class="label" style="opacity: 0">enrich</text>
+          </g>
+          <g class="agent-node">
+            <circle cx="275" cy="180" r="22" />
+            <text x="275" y="183" text-anchor="middle">a3</text>
+            <text x="320" y="184" class="label" style="opacity: 0">risk · xgboost</text>
+          </g>
+          <g class="agent-node">
+            <circle cx="275" cy="250" r="22" />
+            <text x="275" y="253" text-anchor="middle">a4</text>
+            <text x="320" y="254" class="label" style="opacity: 0">convert · rf</text>
+          </g>
+          <g class="agent-node">
+            <circle cx="275" cy="320" r="22" />
+            <text x="275" y="323" text-anchor="middle">a5</text>
+            <text x="320" y="324" class="label" style="opacity: 0">fraud · iso forest</text>
+          </g>
+          <g class="agent-node">
+            <circle cx="275" cy="390" r="22" />
+            <text x="275" y="393" text-anchor="middle">a6</text>
+            <text x="320" y="394" class="label" style="opacity: 0">decision</text>
+          </g>
+
+          <!-- output node -->
+          <g class="agent-node">
+            <circle cx="530" cy="225" r="22" />
+            <text x="530" y="228" text-anchor="middle">out</text>
+          </g>
+          <text x="530" y="270" text-anchor="middle" style="font-family:'Cormorant Garamond';font-style:italic;font-size:13px;fill:var(--ink-soft)">quote</text>
+
+          <text x="300" y="430" text-anchor="middle" style="font-family:'JetBrains Mono';font-size:9px;letter-spacing:0.16em;fill:var(--muted)">6-AGENT ML PIPELINE · MOTOR INSURANCE UNDERWRITING</text>
+        </svg>
+      </div>
+      <div class="copy">
+        <div class="meta-row"><span class="dot"></span> 2026 · hackathon · codryx ai</div>
+        <h3>Autonomous <em>Quote Agent.</em></h3>
+        <div class="sub">multi-agent insurance underwriting system.</div>
+        <ul>
+          <li>Six-agent ML pipeline replacing manual underwriting with automated risk modeling and fraud detection.</li>
+          <li>XGBoost for conversion prediction, Random Forest for risk scoring, Isolation Forest for anomaly-based fraud detection.</li>
+          <li>Won an internship offer from <em style="font-style:italic;color:var(--accent)">Codryx&nbsp;AI</em> on the strength of the implementation.</li>
+        </ul>
+        <div class="stack">
+          <span class="chip">Python</span>
+          <span class="chip">XGBoost</span>
+          <span class="chip">scikit-learn</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">Multi-agent</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- DevOps YAML -->
+    <article class="project reveal" data-screen-label="04.3 DevOps YAML">
+      <div class="visual">
+        <span class="fig-tag">fig. 4.3</span>
+        <div class="diff-vis">
+          <div class="file">.github/workflows/deploy.yml — automated PR #248</div>
+          <span class="ln" data-n="12">name: deploy</span>
+          <span class="ln" data-n="13">on:</span>
+          <span class="ln del" data-n="14">  push: { branches: [main] }</span>
+          <span class="ln add" data-n="14">  push: { branches: [main, release/*] }</span>
+          <span class="ln" data-n="15">jobs:</span>
+          <span class="ln" data-n="16">  build:</span>
+          <span class="ln del" data-n="17">    runs-on: ubuntu-20.04</span>
+          <span class="ln add" data-n="17">    runs-on: ubuntu-22.04</span>
+          <span class="ln add" data-n="18">    timeout-minutes: 15</span>
+          <span class="ln" data-n="19">    steps:</span>
+          <span class="ln add" data-n="20">      - uses: actions/cache@v4</span>
+          <span class="ln" data-n="21">      - run: pnpm i &amp;&amp; pnpm build</span>
+        </div>
+      </div>
+      <div class="copy">
+        <div class="meta-row"><span class="dot"></span> 2025 · internal tooling</div>
+        <h3>DevOps <em>YAML Automation.</em></h3>
+        <div class="sub">policy-driven PR generation across repos.</div>
+        <ul>
+          <li>FastAPI backend with key-path allow-list policies and GitHub API integration for automated PR generation across multiple repositories.</li>
+          <li>Operator dashboard in Next.js / TypeScript for visual diff previews and execution commands — what you see is what gets merged.</li>
+        </ul>
+        <div class="stack">
+          <span class="chip">FastAPI</span>
+          <span class="chip">Next.js</span>
+          <span class="chip">GitHub API</span>
+          <span class="chip">YAML</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Ram Jam -->
+    <article class="project flip reveal" data-screen-label="04.4 Ram Jam">
+      <div class="visual">
+        <span class="fig-tag">fig. 4.4</span>
+        <div class="wave-vis">
+          <svg class="wave" viewBox="0 0 600 100" preserveAspectRatio="none">
+            <!-- 50 bars -->
+            <g>
+              <!-- generated by JS but seeded with starting bars -->
+              <!-- We'll just render 60 -->
+            </g>
+          </svg>
+        </div>
+        <div class="wave-meta"><span class="lg">Ram Jam.</span>real-time · ws · 50&nbsp;ms&nbsp;sync</div>
+      </div>
+      <div class="copy">
+        <div class="meta-row"><span class="dot"></span> 2024 · personal</div>
+        <h3>Ram <em>Jam.</em></h3>
+        <div class="sub">real-time collaborative music player.</div>
+        <ul>
+          <li>Low-latency web app for synchronized YouTube playback using Node.js, Express &amp; Socket.IO with resilient WebSocket communication.</li>
+          <li>Listening rooms that survive flaky connections — auto-reconnect, drift correction, and a host-elects-on-disconnect protocol.</li>
+        </ul>
+        <div class="stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">Socket.IO</span>
+          <span class="chip">WebSocket</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PTCE -->
+    <article class="project reveal" data-screen-label="04.5 PTCE">
+      <div class="visual">
+        <span class="fig-tag">fig. 4.5 · in development</span>
+        <div class="graph-vis">
+          <svg class="traffic" viewBox="0 0 600 450">
+            <!-- edges -->
+            <path class="graph-edge" d="M 80 80 L 200 120"/>
+            <path class="graph-edge" d="M 200 120 L 320 90"/>
+            <path class="graph-edge" d="M 320 90 L 440 130"/>
+            <path class="graph-edge" d="M 440 130 L 520 200"/>
+            <path class="graph-edge" d="M 200 120 L 220 230"/>
+            <path class="graph-edge" d="M 320 90 L 310 220"/>
+            <path class="graph-edge" d="M 440 130 L 380 230"/>
+            <path class="graph-edge" d="M 220 230 L 310 220"/>
+            <path class="graph-edge" d="M 310 220 L 380 230"/>
+            <path class="graph-edge" d="M 220 230 L 180 350"/>
+            <path class="graph-edge" d="M 310 220 L 290 350"/>
+            <path class="graph-edge" d="M 380 230 L 420 350"/>
+            <path class="graph-edge" d="M 180 350 L 290 350"/>
+            <path class="graph-edge" d="M 290 350 L 420 350"/>
+            <path class="graph-edge" d="M 80 80 L 220 230"/>
+            <path class="graph-edge" d="M 520 200 L 420 350"/>
+            <!-- nodes -->
+            <circle class="graph-node" cx="80"  cy="80"  r="6"/>
+            <circle class="graph-node" cx="200" cy="120" r="6"/>
+            <circle class="graph-node" cx="320" cy="90"  r="6"/>
+            <circle class="graph-node" cx="440" cy="130" r="6"/>
+            <circle class="graph-node" cx="520" cy="200" r="6"/>
+            <circle class="graph-node hot" cx="220" cy="230" r="7"/>
+            <circle class="graph-node" cx="310" cy="220" r="6"/>
+            <circle class="graph-node hot" cx="380" cy="230" r="7"/>
+            <circle class="graph-node" cx="180" cy="350" r="6"/>
+            <circle class="graph-node" cx="290" cy="350" r="6"/>
+            <circle class="graph-node" cx="420" cy="350" r="6"/>
+
+            <text x="300" y="425" text-anchor="middle" style="font-family:'JetBrains Mono';font-size:9px;letter-spacing:0.16em;fill:var(--muted)">PTCE · GRAPH MODEL · LIVE FLOW &amp; CONGESTION FORECAST</text>
+          </svg>
+        </div>
+      </div>
+      <div class="copy">
+        <div class="meta-row"><span class="dot"></span> 2026 · in development</div>
+        <h3>PTCE — Predictive <em>Traffic Control Engine.</em></h3>
+        <div class="sub">real-time traffic intelligence for cities.</div>
+        <ul>
+          <li>Real-time predictive traffic intelligence platform for monitoring and forecasting urban congestion, built on event-driven systems.</li>
+          <li>Streaming pipelines and graph-based modeling to analyze flow across complex city networks.</li>
+          <li>Predictive analytics modules forecasting short-term congestion risks for smart-city traffic management.</li>
+        </ul>
+        <div class="stack">
+          <span class="chip">Streaming</span>
+          <span class="chip">Graph models</span>
+          <span class="chip">Event-driven</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ HACKATHON CALLOUT ============ -->
+<section class="section" data-screen-label="05 Hackathon" style="padding-top:60px;padding-bottom:60px;">
+  <div class="hack-callout reveal">
+    <div>
+      <div class="lead">— hackathon · codryx ai · hyderabad</div>
+      <h3>Built a <em>6-agent</em> insurance underwriter in a weekend.<br>Walked out with an offer.</h3>
+      <p>QuoteAI replaced manual underwriting with an automated risk-modeling and fraud-detection pipeline. The technical excellence and architectural clarity of the build secured an internship offer from Codryx AI.</p>
+    </div>
+    <div class="badge">
+      <span class="yr">— winner · 2026</span>
+      Codryx AI<br>Hackathon
+      <span class="out">internship offer secured</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" data-screen-label="06 Education">
+  <div class="section-head">
+    <div class="num">§ 06</div>
+    <h2>Education</h2>
+    <div class="meta">three institutions · one trajectory</div>
+  </div>
+
+  <div class="edu-list">
+    <div class="edu-row reveal">
+      <div class="yr">2023 — 2027</div>
+      <div class="ttl"><em>B.Tech</em>, Computer Science Engineering<span class="school">GITAM University, Hyderabad · pursuing</span></div>
+      <div class="score"><small>cgpa</small>8.14<span style="font-size:14px;color:var(--muted)">&nbsp;/&nbsp;10</span></div>
+    </div>
+    <div class="edu-row reveal d1">
+      <div class="yr">2021 — 2023</div>
+      <div class="ttl"><em>Intermediate</em>, TS Board<span class="school">Sri Chaitanya Junior College</span></div>
+      <div class="score"><small>aggregate</small>91.4%</div>
+    </div>
+    <div class="edu-row reveal d2">
+      <div class="yr">— 2021</div>
+      <div class="ttl"><em>Secondary</em> Education<span class="school">Sri Chaitanya School</span></div>
+      <div class="score"><small>aggregate</small>82.2%</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONNECT ============ -->
+<section class="connect" id="connect" data-screen-label="07 Connect">
+  <div class="connect-grid">
+    <div class="reveal">
+      <div class="section-label" style="margin-bottom:30px">§ 07 · let's talk</div>
+      <h2>Let's<br><span class="it ac">connect.</span></h2>
+    </div>
+    <div class="connect-side reveal d2">
+      <div class="row">
+        <span class="label">Email</span>
+        <a href="mailto:mamidalasairamchandra@gmail.com">mamidalasairamchandra@gmail.com</a>
+      </div>
+      <div class="row">
+        <span class="label">Phone</span>
+        <a href="tel:+919392845497">+91 93928 45497</a>
+      </div>
+      <div class="row">
+        <span class="label">GitHub</span>
+        <a href="https://github.com/smamidal3-spec" target="_blank" rel="noopener">github.com/smamidal3-spec</a>
+      </div>
+      <div class="row">
+        <span class="label">Based</span>
+        Hyderabad, India · IST (UTC+5:30)
+      </div>
+      <div class="row" style="margin-top:32px;font-style:italic;font-family:var(--serif);font-size:18px;color:var(--ink)">
+        For internships, freelance backend work, or just to argue about advisory locks &amp; auth flows.
+      </div>
+    </div>
+  </div>
+
+  <div class="signature reveal"><span class="underline">Sai Rama Chandra</span></div>
+
+  <footer>
+    <span>© SAI RAMA CHANDRA</span>
+    <span>HANDBUILT</span>
+    <span>volume 01 · revised may 2026</span>
+  </footer>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
