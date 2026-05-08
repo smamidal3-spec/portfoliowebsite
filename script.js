@@ -2,10 +2,12 @@
 
 /* ---------- progress bar + clock ---------- */
 const progress = document.querySelector('.progress');
+const topbar = document.querySelector('.topbar');
 window.addEventListener('scroll', () => {
   const h = document.documentElement;
   const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
   progress.style.width = pct + '%';
+  if (topbar) topbar.classList.toggle('scrolled', h.scrollTop > 40);
 }, { passive: true });
 
 function tickClock() {
